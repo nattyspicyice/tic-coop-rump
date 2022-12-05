@@ -6,25 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tic-Coop-Rump</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/9885e42b3f.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div>
+    <div id="game-title">
         <h1>Tic-Coop-Rump</h1>
     </div>
-    <div class="board">
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
+    <div id="player-display">
+        <h2>Cooper</h2>
+        <h2>His Tail</h2>
     </div>
-    <div>
-        <div id="winningMessageText"></div>
-        <button id="restartBtn">Restart</button>
+    <div id="icon-display">
+        <i class="fa-solid fa-dog"></i>
+       <i class="fa-solid fa-bone"></i>
+    </div>
+    <div id="catch-phrase">
+        <h2>Will he catch it?</h2>
+    </div>
+    <div class="board">
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+    </div>
+    <div id="btn-section">
+        <!-- <div id="winningMessageText"></div> -->
+        <button id="start-btn" class="btns" role="button">Start</button>
+        <button id="reset-btn" class="btns" role="button">Reset</button>
     </div>
     <script src="game.js"></script>
 </body>

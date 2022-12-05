@@ -1,10 +1,10 @@
-##TIC-COOP-RUMP (a tic-tac-toe game)
+TIC-COOP-RUMP (a tic-tac-toe game)
 
 A basic game of tic-tac-toe where you play against Cooper (or a computerized version of Cooper, rather)
 
-Instead of X's and O's, you're battling his Cooper against his tail (maybe this time he'll actually catch it!)
+Instead of X's and O's, you're battling Cooper against his tail (maybe this time he'll actually catch it!)
 
-#Main Goals:
+Main Goals:
 1. Correct Logic & Functionality
 2. Well-designed UI
 3. Restart button
@@ -12,6 +12,12 @@ Instead of X's and O's, you're battling his Cooper against his tail (maybe this 
 5. A lose state
 6. Multiple rounds (in this case, turns)
 
-#Stretch Goals
+Stretch Goals:
 1. Responsive design on multiple view sizes
 2. Option to play against another player instead of computer
+
+Challenges:
+1.
+
+Victories:
+1.
