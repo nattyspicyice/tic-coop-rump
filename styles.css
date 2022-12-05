@@ -1,14 +1,19 @@
+@font-face {
+  font-family: 'schoolbellregular';
+  src: url(fonts/Schoolbell.ttf);
+}
+
 * {
-    padding: 0;
-    margin: 0;
-    font-family: "Geneva";
-    color: rgb(117, 69, 45);
-    background-color: rgb(17, 141, 135);
+  padding: 0;
+  margin: 0;
+  background-color: rgb(17, 141, 135);
+  font-family: 'schoolbellregular';
 }
 
 #game-title {
     text-align: center;
     padding: 20px;
+    font-size: 35pt;
 }
 
 #player-display {
@@ -35,14 +40,14 @@
     display: grid;
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: 33% 33% 33%;
-    max-width: 300px;
+    max-width: 600px;
 
 }
 
 .tile {
-    border: 2px solid rgb(117, 69, 45);
+    border: 1px solid black;
     min-width: 100px;
-    min-height: 100px;
+    min-height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -77,7 +82,7 @@
 }
 
 .btns {
-  background-color: #3DD1E7;
+  background-color: #ee8453;
   border: 0 solid #E5E7EB;
   box-sizing: border-box;
   color: #000000;
