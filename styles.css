@@ -31,9 +31,20 @@
 }
 
 #catch-phrase {
-    text-align: center;
-    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
 }
+
+#winningMessageText {
+  font-size: 30pt;
+}
+
+#btn-section {
+  display: flex;
+  justify-content: center;
+}
+
 
 .board {
     margin: 0 auto;
@@ -72,14 +83,7 @@
 	border-bottom: none;
 }
 
-/* buttons */
-#btn-section {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 80px;
-    padding-left: 200px;
-    padding-right: 200px;
-}
+/* button */
 
 .btns {
   background-color: #ee8453;
@@ -88,10 +92,7 @@
   color: #000000;
   font-size: 1rem;
   font-weight: 700;
-  justify-content: center;
   line-height: 1.75rem;
-  padding: .75rem 1.65rem;
-  
   text-align: center;
   text-decoration: none #000000 solid;
   width: 100%;
