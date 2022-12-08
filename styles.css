@@ -10,24 +10,31 @@
   font-family: 'schoolbellregular';
 }
 
+.imgs {
+  width: 200px;
+}
+
 #game-title {
     text-align: center;
     padding: 20px;
     font-size: 35pt;
 }
 
-#player-display {
-    display: flex;
-    text-align: center;
-    justify-content: space-around;
-    padding: 10px;
-}
-
 #icon-display{
     display: flex;
-    text-align: center;
-    justify-content: space-around;
-    padding: 10px;
+    justify-content: space-evenly;
+}
+
+#coop-div {
+  display: block;
+  justify-content: center;
+  text-align: center;
+}
+
+#rump-div {
+  display: block;
+  justify-content: center;
+  text-align: center;
 }
 
 #catch-phrase {
@@ -131,6 +138,6 @@
 @media (min-width: 768px) {
   .btns {
     padding: .75rem 3rem;
-    font-size: 1.25rem;
+    font-size: 1.75rem;
   }
 }
