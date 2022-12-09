@@ -1,6 +1,6 @@
 TIC-COOP-RUMP (a tic-tac-toe game)
 
-A basic game of tic-tac-toe where you play against Cooper (or a computerized version of Cooper, rather)
+A basic game of tic-tac-toe where you play against Cooper!
 
 Instead of X's and O's, you're battling Cooper against his tail (maybe this time he'll actually catch it!)
 
@@ -16,7 +16,8 @@ Stretch Goals:
 1. Responsive design on multiple view sizes
 
 Challenges:
-1.
+1. I wanted pictures to show up instead of the "X" and "O" but I couldn't figure it out
 
 Victories:
-1.
+1. uploaded the images
+2. responsiveness across multiple devices
