@@ -14,7 +14,6 @@ Main Goals:
 
 Stretch Goals:
 1. Responsive design on multiple view sizes
-2. Option to play against another player instead of computer
 
 Challenges:
 1.
